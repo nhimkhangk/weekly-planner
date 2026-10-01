@@ -16,6 +16,8 @@ const PlannerApp = (() => {
   }
 
   function init() {
+    const savedTheme = localStorage.getItem('weeklyPlannerTheme');
+    document.documentElement.dataset.theme = savedTheme === 'dark' ? 'dark' : 'light';
     seedDataIfNeeded();
     bindEvents();
     render();
@@ -71,6 +73,16 @@ const PlannerApp = (() => {
 
   function bindEvents() {
     $(document).on('click', '[data-action="export-json"]', exportJsonData);
+
+    $(document).on('click', '[data-action="toggle-theme"]', function () {
+      const theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+      document.documentElement.dataset.theme = theme;
+      localStorage.setItem('weeklyPlannerTheme', theme);
+      $(this)
+        .attr('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode')
+        .attr('title', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode')
+        .attr('aria-pressed', theme === 'dark');
+    });
 
     $(document).on('click', '[data-action="filter-category"]', function () {
       state.categoryFilter = $(this).attr('data-category-filter');

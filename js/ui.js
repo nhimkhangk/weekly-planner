@@ -199,6 +199,7 @@ const PlannerUI = (() => {
       ));
     const selectedDate = state.selectedDate || PlannerDates.getTodayISO();
     const currentDay = PlannerDates.getTodayISO();
+    const isDarkTheme = document.documentElement.dataset.theme === 'dark';
 
     const viewHtml = (() => {
       switch (state.viewMode) {
@@ -226,6 +227,10 @@ const PlannerUI = (() => {
           </div>
 
           <div class="top-actions">
+            <button class="secondary-btn theme-toggle-btn" data-action="toggle-theme" aria-label="${isDarkTheme ? 'Switch to light mode' : 'Switch to dark mode'}" title="${isDarkTheme ? 'Switch to light mode' : 'Switch to dark mode'}" aria-pressed="${isDarkTheme}">
+              <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.2 15.4A8.5 8.5 0 0 1 8.6 3.8 8.5 8.5 0 1 0 20.2 15.4Z"/></svg>
+              <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+            </button>
             <button class="secondary-btn export-btn" data-action="export-json" aria-label="Export JSON" title="Export JSON">
               <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 17v3h14v-3"/></svg>
               <span>Export JSON</span>

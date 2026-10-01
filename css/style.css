@@ -85,6 +85,29 @@ button {
   color: var(--text);
 }
 
+.theme-toggle-btn {
+  display: inline-grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  flex: 0 0 auto;
+}
+
+.theme-icon {
+  width: 17px;
+  height: 17px;
+}
+
+.theme-icon-sun,
+:root[data-theme="dark"] .theme-icon-moon {
+  display: none;
+}
+
+:root[data-theme="dark"] .theme-icon-sun {
+  display: block;
+}
+
 .app-subtitle {
   margin-top: 4px;
   color: var(--muted);
@@ -297,6 +320,144 @@ button {
     overflow-x: auto;
     padding-bottom: 3px;
   }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #151c23;
+  --panel: #1c252e;
+  --card: #222d37;
+  --card-alt: #293641;
+  --border: #3b4956;
+  --line: #303d48;
+  --text: #e5edf3;
+  --muted: #a5b3bf;
+  --muted-2: #8293a2;
+  --blue: #91adff;
+  --blue-soft: #273752;
+  --blue-strong: #344761;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.24);
+  --gray-1: #293641;
+  --gray-2: #3b4956;
+}
+
+:root[data-theme="dark"] body {
+  background:
+    linear-gradient(rgba(13, 18, 24, 0.42), rgba(13, 18, 24, 0.42)),
+    linear-gradient(90deg, rgba(161, 181, 201, 0.035) 1px, transparent 1px),
+    linear-gradient(rgba(161, 181, 201, 0.035) 1px, transparent 1px),
+    var(--bg);
+}
+
+:root[data-theme="dark"] .planner-shell,
+:root[data-theme="dark"] .view-switch,
+:root[data-theme="dark"] .date-nav .nav-group,
+:root[data-theme="dark"] .day-column,
+:root[data-theme="dark"] .quick-confirm {
+  background-color: var(--panel);
+  background-image: none;
+}
+
+:root[data-theme="dark"] .view-btn.active,
+:root[data-theme="dark"] .primary-btn,
+:root[data-theme="dark"] .secondary-btn,
+:root[data-theme="dark"] .mini-btn,
+:root[data-theme="dark"] .date-nav .nav-group button.primary,
+:root[data-theme="dark"] .saved-tag-item {
+  background: var(--card-alt);
+  border-color: var(--border);
+  color: var(--text);
+}
+
+:root[data-theme="dark"] .ghost-btn,
+:root[data-theme="dark"] .category-filter-chip,
+:root[data-theme="dark"] .note-action-btn,
+:root[data-theme="dark"] .editor-button,
+:root[data-theme="dark"] .saved-tag-item {
+  background-color: var(--card-alt);
+  color: var(--muted);
+}
+
+:root[data-theme="dark"] .category-filter-chip.active {
+  border-color: rgba(145, 173, 255, 0.48);
+  background: #293b56;
+  color: #c2d2ff;
+}
+
+:root[data-theme="dark"] .day-column.today {
+  border-color: #536b98;
+  background: linear-gradient(180deg, #243247, #202b38);
+}
+
+:root[data-theme="dark"] .day-column-header,
+:root[data-theme="dark"] .day-column-header.today {
+  background: rgba(255, 255, 255, 0.025);
+}
+
+:root[data-theme="dark"] .note-time {
+  border-color: var(--border);
+  background: #2a3743;
+  color: #c4d0da;
+}
+
+:root[data-theme="dark"] .note-time.is-unscheduled {
+  background: #252f39;
+  color: var(--muted-2);
+}
+
+:root[data-theme="dark"] .tag-badge,
+:root[data-theme="dark"] .tag-chip {
+  border-color: var(--border);
+  background: #2a3743;
+  color: #d0dbe4;
+}
+
+:root[data-theme="dark"] .note-category-label {
+  color: #c0ccd6;
+}
+
+:root[data-theme="dark"] .empty-state {
+  background: rgba(255, 255, 255, 0.025);
+}
+
+:root[data-theme="dark"] .note-composer {
+  border-color: var(--border);
+  background: linear-gradient(180deg, #222d37, #1e2832);
+}
+
+:root[data-theme="dark"] .note-composer input[type="text"],
+:root[data-theme="dark"] .note-composer input[type="date"],
+:root[data-theme="dark"] .note-composer select,
+:root[data-theme="dark"] .note-composer .tag-input,
+:root[data-theme="dark"] .note-composer .editor-content,
+:root[data-theme="dark"] .note-composer .editor-link-form input {
+  border-color: var(--border);
+  background: #19232c;
+  color: var(--text);
+}
+
+:root[data-theme="dark"] .note-composer .editor-toolbar,
+:root[data-theme="dark"] .note-composer .editor-link-form {
+  border-color: var(--border);
+  background: #27333e;
+}
+
+:root[data-theme="dark"] .note-composer .editor-button {
+  border-color: var(--border);
+}
+
+:root[data-theme="dark"] .note-composer .editor-button:hover,
+:root[data-theme="dark"] .saved-tag-option:hover {
+  background: #344352;
+  color: var(--text);
+}
+
+:root[data-theme="dark"] .tag-chip button {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+:root[data-theme="dark"] .saved-tag-item {
+  border-color: var(--border);
 }
 
 .planner-view {

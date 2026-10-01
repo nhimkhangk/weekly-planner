@@ -111,6 +111,30 @@ const PlannerStorage = (() => {
     };
   }
 
+  function importData(data) {
+    if (!data || data.schemaVersion !== 1 || !Array.isArray(data.notes) ||
+        !Array.isArray(data.categories) || !Array.isArray(data.tags)) {
+      throw new Error('Unsupported or invalid planner backup.');
+    }
+
+    const nextValues = [
+      [NOTES_KEY, JSON.stringify(data.notes)],
+      [CATEGORIES_KEY, JSON.stringify(data.categories)],
+      [TAGS_KEY, JSON.stringify(data.tags)]
+    ];
+    const previousValues = nextValues.map(([key]) => [key, localStorage.getItem(key)]);
+
+    try {
+      nextValues.forEach(([key, value]) => localStorage.setItem(key, value));
+    } catch (error) {
+      previousValues.forEach(([key, value]) => {
+        if (value === null) localStorage.removeItem(key);
+        else localStorage.setItem(key, value);
+      });
+      throw error;
+    }
+  }
+
   function defaultCategories() {
     const categories = [
       { name: 'Teky', color: '#6d8cff' },
@@ -134,6 +158,7 @@ const PlannerStorage = (() => {
     rememberTag,
     deleteSavedTag,
     exportData,
+    importData,
     defaultCategories
   };
 })();

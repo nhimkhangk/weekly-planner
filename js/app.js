@@ -71,8 +71,39 @@ const PlannerApp = (() => {
     window.setTimeout(() => URL.revokeObjectURL(url), 1000);
   }
 
+  async function importJsonData(file) {
+    try {
+      const data = JSON.parse(await file.text());
+      if (!data || data.schemaVersion !== 1 || !Array.isArray(data.notes) ||
+          !Array.isArray(data.categories) || !Array.isArray(data.tags)) {
+        throw new Error('This file is not a supported Weekly Planner backup.');
+      }
+
+      const confirmed = window.confirm(
+        `Import ${data.notes.length} notes? This will replace your current notes, categories, and saved tags.`
+      );
+      if (!confirmed) return;
+
+      PlannerStorage.importData(data);
+      state.composer = null;
+      state.pendingDeleteId = null;
+      render();
+      window.alert('Planner data imported successfully.');
+    } catch (error) {
+      window.alert(error.message || 'Could not read this JSON file.');
+    }
+  }
+
   function bindEvents() {
     $(document).on('click', '[data-action="export-json"]', exportJsonData);
+    $(document).on('click', '[data-action="import-json"]', function () {
+      $(this).siblings('[data-role="import-json-file"]').trigger('click');
+    });
+    $(document).on('change', '[data-role="import-json-file"]', function () {
+      const file = this.files && this.files[0];
+      this.value = '';
+      if (file) importJsonData(file);
+    });
 
     $(document).on('click', '[data-action="toggle-theme"]', function () {
       const theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';

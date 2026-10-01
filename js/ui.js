@@ -235,6 +235,11 @@ const PlannerUI = (() => {
               <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 17v3h14v-3"/></svg>
               <span>Export JSON</span>
             </button>
+            <button class="secondary-btn export-btn" data-action="import-json" aria-label="Import JSON" title="Import JSON">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3"/><path d="m7 8 5-5 5 5"/><path d="M5 17v3h14v-3"/></svg>
+              <span>Import JSON</span>
+            </button>
+            <input type="file" accept=".json,application/json" data-role="import-json-file" aria-label="Choose planner JSON backup" hidden>
             <button class="primary-btn add-note-icon-btn" data-action="add-note" data-date="${selectedDate}" data-type="day" aria-label="Add note" title="Add note">
               <span aria-hidden="true">+</span>
             </button>

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-10-01T11:44:14.623Z",
+  "exportedAt": "2026-10-01T13:34:12.517Z",
   "notes": [
     {
       "id": "note_1790826220527_6a4fc6",
@@ -16,9 +16,9 @@
         "name": "Teky",
         "color": "#6d8cff"
       },
-      "priority": "high",
+      "priority": "low",
       "createdAt": "2026-10-01T03:43:40.527Z",
-      "updatedAt": "2026-10-01T03:52:16.768Z",
+      "updatedAt": "2026-10-01T13:23:17.741Z",
       "date": "2026-10-02",
       "time": "18:00",
       "type": "day",
@@ -38,9 +38,9 @@
         "name": "Teky",
         "color": "#6d8cff"
       },
-      "priority": "medium",
+      "priority": "low",
       "createdAt": "2026-10-01T03:54:50.246Z",
-      "updatedAt": "2026-10-01T03:56:44.683Z",
+      "updatedAt": "2026-10-01T13:23:57.502Z",
       "date": "2026-10-03",
       "time": "08:00",
       "type": "day",
@@ -60,9 +60,9 @@
         "name": "Teky",
         "color": "#6d8cff"
       },
-      "priority": "medium",
+      "priority": "low",
       "createdAt": "2026-10-01T03:58:02.335Z",
-      "updatedAt": "2026-10-01T04:11:12.211Z",
+      "updatedAt": "2026-10-01T13:24:08.666Z",
       "date": "2026-10-03",
       "time": "10:00",
       "type": "day",
@@ -148,9 +148,9 @@
         "name": "Teky",
         "color": "#6d8cff"
       },
-      "priority": "medium",
+      "priority": "low",
       "createdAt": "2026-10-01T04:21:18.295Z",
-      "updatedAt": "2026-10-01T04:26:09.460Z",
+      "updatedAt": "2026-10-01T13:24:52.930Z",
       "date": "2026-10-04",
       "time": "10:00",
       "type": "day",
@@ -192,9 +192,9 @@
         "name": "Teky",
         "color": "#6d8cff"
       },
-      "priority": "medium",
+      "priority": "low",
       "createdAt": "2026-10-01T04:30:09.920Z",
-      "updatedAt": "2026-10-01T04:31:00.791Z",
+      "updatedAt": "2026-10-01T13:25:40.823Z",
       "date": "2026-10-04",
       "time": "16:00",
       "type": "day",

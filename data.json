@@ -1,0 +1,643 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-10-01T11:44:14.623Z",
+  "notes": [
+    {
+      "id": "note_1790826220527_6a4fc6",
+      "title": "Adobe Animate",
+      "description": "<p><b>Lớp</b>&nbsp;<span>BD-DLBD-C-3D-1218-DSMM-0011</span></p><p><b>Bài số</b><span>&nbsp;</span><span>Bài 8</span></p><div><span><b>Tên bài</b> học&nbsp;<span>Logo hãng phim nổi tiếng</span></span></div><div><a href=\"https://schoollms.teky.vn/dashboard/courses/2312/curriculum\">Học liệu</a></div>",
+      "tags": [
+        {
+          "name": "AN HP8",
+          "color": "#8b8f99"
+        }
+      ],
+      "category": {
+        "name": "Teky",
+        "color": "#6d8cff"
+      },
+      "priority": "high",
+      "createdAt": "2026-10-01T03:43:40.527Z",
+      "updatedAt": "2026-10-01T03:52:16.768Z",
+      "date": "2026-10-02",
+      "time": "18:00",
+      "type": "day",
+      "week": "2026-W40"
+    },
+    {
+      "id": "note_1790826890246",
+      "title": "Wedo",
+      "description": "<div><span><p><b>Lớp</b>&nbsp;<span>BD-DLBD-C-RB-711-2025KPRB-0003</span></p></span><span><b>Bài số</b>&nbsp;<span>Bài 2</span></span></div><div><span><b>Tên bài học</b>&nbsp;<span>NGÔN NGỮ ĐỘNG VẬT</span></span></div><div><span><span><a href=\"https://schoollms.teky.vn/dashboard/courses/36191/curriculum\">Học liệu</a></span></span></div>",
+      "tags": [
+        {
+          "name": "Wedo HP2",
+          "color": "#5bb8a0"
+        }
+      ],
+      "category": {
+        "name": "Teky",
+        "color": "#6d8cff"
+      },
+      "priority": "medium",
+      "createdAt": "2026-10-01T03:54:50.246Z",
+      "updatedAt": "2026-10-01T03:56:44.683Z",
+      "date": "2026-10-03",
+      "time": "08:00",
+      "type": "day",
+      "week": "2026-W40"
+    },
+    {
+      "id": "note_1790827082335",
+      "title": "Microbit HP1",
+      "description": "<p><b>Lớp</b>&nbsp;<span>BD-DLBD-PA_C_KPRB_WMAI-0009</span></p><p><span><b>Bài số</b>&nbsp;</span><span>Bài 1</span></p><p><span><b>Tên bài học</b>&nbsp;</span><span>CHẾ TẠO CÙNG MICROBIT | KPRB_WMAI-HP09B01</span></p><p><span><a href=\"https://schoollms.teky.vn/dashboard/courses/38154/curriculum\">Học liệu</a></span></p>",
+      "tags": [
+        {
+          "name": "Microbit HP1",
+          "color": "#7da6d8"
+        }
+      ],
+      "category": {
+        "name": "Teky",
+        "color": "#6d8cff"
+      },
+      "priority": "medium",
+      "createdAt": "2026-10-01T03:58:02.335Z",
+      "updatedAt": "2026-10-01T04:11:12.211Z",
+      "date": "2026-10-03",
+      "time": "10:00",
+      "type": "day",
+      "week": "2026-W40"
+    },
+    {
+      "id": "note_1790827394707",
+      "title": "Offset Microbit",
+      "description": "Bài 3 học phần 1",
+      "tags": [
+        {
+          "name": "Microbit HP1",
+          "color": "#7da6d8"
+        }
+      ],
+      "category": {
+        "name": "Teky",
+        "color": "#6d8cff"
+      },
+      "priority": "low",
+      "createdAt": "2026-10-01T04:03:14.707Z",
+      "updatedAt": "2026-10-01T04:10:24.267Z",
+      "date": "2026-10-03",
+      "time": "14:00",
+      "type": "day",
+      "week": "2026-W40"
+    },
+    {
+      "id": "note_1790828050367",
+      "title": "TA Minstorm",
+      "description": "TA lớp thầy Trung",
+      "tags": [
+        {
+          "name": "TA",
+          "color": "#d96c6c"
+        }
+      ],
+      "category": {
+        "name": "Teky",
+        "color": "#6d8cff"
+      },
+      "priority": "low",
+      "createdAt": "2026-10-01T04:14:10.367Z",
+      "updatedAt": "2026-10-01T04:15:15.132Z",
+      "date": "2026-10-03",
+      "time": "18:00",
+      "type": "day",
+      "week": "2026-W40"
+    },
+    {
+      "id": "note_1790828179864",
+      "title": "Microbit HP2",
+      "description": "<span><b>Phát triển ứng dụng với AI học phần 2</b></span><div><p><b>Lớp&nbsp;</b><span>BD-DLBD-C_1011_2024CT-0018</span></p><div><span><b>Bài số</b>&nbsp;<span>Bài 8</span></span></div><div><span><b>Tên bài học</b>&nbsp;<span>HỆ THỐNG TƯỚI CÂY TỰ ĐỘNG</span></span></div></div><div><span><span><a href=\"https://schoollms.teky.vn/dashboard/courses/28594/curriculum\">Học liệu</a></span></span></div>",
+      "tags": [
+        {
+          "name": "Microbit HP2",
+          "color": "#b68af8"
+        }
+      ],
+      "category": {
+        "name": "Teky",
+        "color": "#6d8cff"
+      },
+      "priority": "medium",
+      "createdAt": "2026-10-01T04:16:19.864Z",
+      "updatedAt": "2026-10-01T04:18:43.792Z",
+      "date": "2026-10-04",
+      "time": "08:00",
+      "type": "day",
+      "week": "2026-W40"
+    },
+    {
+      "id": "note_1790828478295",
+      "title": "Wedo HP2",
+      "description": "<span><b>KPRB WMAI Level 2</b></span><div><p><b>Lớp&nbsp;</b><span>BD-DLBD-PA_C_KPRB_WMAI-0019</span></p><p><span><b>Bài số</b>&nbsp;</span><span>Bài 4</span></p><div><span><b>Tên bài học</b>&nbsp;<span>ÔN TẬP 1 | KPRB_WMAI-HP02B04</span></span></div></div><div><span><span><a href=\"https://drive.google.com/file/d/1K8qidebpPuyz62QqsqATVOM3zL66LaN2/view?usp=sharing\">Khủng long cổ dài&nbsp;</a></span></span></div>",
+      "tags": [
+        {
+          "name": "Wedo HP2",
+          "color": "#5bb8a0"
+        }
+      ],
+      "category": {
+        "name": "Teky",
+        "color": "#6d8cff"
+      },
+      "priority": "medium",
+      "createdAt": "2026-10-01T04:21:18.295Z",
+      "updatedAt": "2026-10-01T04:26:09.460Z",
+      "date": "2026-10-04",
+      "time": "10:00",
+      "type": "day",
+      "week": "2026-W40"
+    },
+    {
+      "id": "note_1790828890640",
+      "title": "Roblox HP4",
+      "description": "<span><b>Siêu nhân lập trình học phần 4</b></span><div><p><b>Lớp</b>&nbsp;<span>BD-DLBD-C-PA-1518-SNLT-0008</span></p><div><span><b>Bài số&nbsp;</b><span>Bài 9</span></span></div><div><span><b>Tên bài học</b>&nbsp;<span>BẢNG XẾP HẠNG TỐC ĐỘ</span></span></div></div><div><span><span><a href=\"https://schoollms.teky.vn/dashboard/courses/30085/curriculum\">Học liệu</a></span></span></div>",
+      "tags": [
+        {
+          "name": "Roblox HP4",
+          "color": "#8b8f99"
+        }
+      ],
+      "category": {
+        "name": "Teky",
+        "color": "#6d8cff"
+      },
+      "priority": "high",
+      "createdAt": "2026-10-01T04:28:10.640Z",
+      "updatedAt": "2026-10-01T04:28:36.039Z",
+      "date": "2026-10-04",
+      "time": "14:00",
+      "type": "day",
+      "week": "2026-W40"
+    },
+    {
+      "id": "note_1790829009920",
+      "title": "Wedo HP3",
+      "description": "<div><div><div><b><span>KPRB WMAI Level 3</span><span><br></span></b></div></div></div><div><p><b>Lớp</b>&nbsp;<span>BD-DLBD-PA_C_KPRB_WMAI-0016</span></p><div><span><b>Bài số</b>&nbsp;<span>Bài 4</span></span></div><div><span><b>Tên bài học</b>&nbsp;<span>ÔN TẬP 1 | KPRB_WMAI-HP03B04</span></span></div></div><div><div><div><div></div></div></div></div>",
+      "tags": [
+        {
+          "name": "Wedo HP3",
+          "color": "#d96c6c"
+        }
+      ],
+      "category": {
+        "name": "Teky",
+        "color": "#6d8cff"
+      },
+      "priority": "medium",
+      "createdAt": "2026-10-01T04:30:09.920Z",
+      "updatedAt": "2026-10-01T04:31:00.791Z",
+      "date": "2026-10-04",
+      "time": "16:00",
+      "type": "day",
+      "week": "2026-W40"
+    },
+    {
+      "id": "note_1790829162159",
+      "title": "THCS Mỹ Phước",
+      "description": "Đem đồ lên trường, khảo sát",
+      "tags": [],
+      "category": {
+        "name": "THCS Mỹ Phước",
+        "color": "#5bb8a0"
+      },
+      "priority": "urgent",
+      "createdAt": "2026-10-01T04:32:42.159Z",
+      "updatedAt": "2026-10-01T04:32:42.159Z",
+      "date": "2026-10-02",
+      "time": "09:00",
+      "type": "day",
+      "week": "2026-W40"
+    },
+    {
+      "id": "note_1790829468724",
+      "title": "Mỹ Thạnh Support",
+      "description": "15:50 - 16:35",
+      "tags": [],
+      "category": {
+        "name": "THCS Mỹ Thạnh",
+        "color": "#f4b04e"
+      },
+      "priority": "low",
+      "createdAt": "2026-10-01T04:37:48.724Z",
+      "updatedAt": "2026-10-01T05:36:16.224Z",
+      "date": "2026-10-05",
+      "time": "15:50",
+      "type": "day",
+      "week": "2026-W41"
+    },
+    {
+      "id": "note_1790829752244_5e0afc",
+      "title": "Mỹ Thạnh Support",
+      "description": "15:50 - 16:35",
+      "tags": [],
+      "category": {
+        "name": "THCS Mỹ Thạnh",
+        "color": "#f4b04e"
+      },
+      "priority": "low",
+      "createdAt": "2026-10-01T04:42:32.244Z",
+      "updatedAt": "2026-10-01T05:36:28.743Z",
+      "date": "2026-10-07",
+      "time": "15:50",
+      "type": "day",
+      "week": "2026-W41"
+    },
+    {
+      "id": "note_1790832055003_352d64",
+      "title": "Adobe Animate",
+      "description": "<p><b>Lớp</b>&nbsp;<span>BD-DLBD-C-3D-1218-DSMM-0011</span></p><p><b>Bài số</b><span>&nbsp;</span><span>Bài 8</span></p><div><span><b>Tên bài</b> học&nbsp;<span>Logo hãng phim nổi tiếng</span></span></div><div><a href=\"https://schoollms.teky.vn/dashboard/courses/2312/curriculum\">Học liệu</a></div>",
+      "tags": [
+        {
+          "name": "AN HP8",
+          "color": "#8b8f99"
+        }
+      ],
+      "category": {
+        "name": "Teky",
+        "color": "#6d8cff"
+      },
+      "priority": "high",
+      "createdAt": "2026-10-01T05:20:55.003Z",
+      "updatedAt": "2026-10-01T05:20:55.003Z",
+      "date": "2026-10-09",
+      "time": "18:00",
+      "type": "day",
+      "week": "2026-W41"
+    },
+    {
+      "id": "note_1790832055004_be1334",
+      "title": "Wedo",
+      "description": "<div><span><p><b>Lớp</b>&nbsp;<span>BD-DLBD-C-RB-711-2025KPRB-0003</span></p></span><span><b>Bài số</b>&nbsp;<span>Bài 2</span></span></div><div><span><b>Tên bài học</b>&nbsp;<span>NGÔN NGỮ ĐỘNG VẬT</span></span></div><div><span><span><a href=\"https://schoollms.teky.vn/dashboard/courses/36191/curriculum\">Học liệu</a></span></span></div>",
+      "tags": [
+        {
+          "name": "Wedo HP2",
+          "color": "#5bb8a0"
+        }
+      ],
+      "category": {
+        "name": "Teky",
+        "color": "#6d8cff"
+      },
+      "priority": "medium",
+      "createdAt": "2026-10-01T05:20:55.004Z",
+      "updatedAt": "2026-10-01T05:20:55.004Z",
+      "date": "2026-10-10",
+      "time": "08:00",
+      "type": "day",
+      "week": "2026-W41"
+    },
+    {
+      "id": "note_1790832055004_2e939e",
+      "title": "Microbit HP1",
+      "description": "<p><b>Lớp</b>&nbsp;<span>BD-DLBD-PA_C_KPRB_WMAI-0009</span></p><p><span><b>Bài số</b>&nbsp;</span><span>Bài 1</span></p><p><span><b>Tên bài học</b>&nbsp;</span><span>CHẾ TẠO CÙNG MICROBIT | KPRB_WMAI-HP09B01</span></p><p><span><a href=\"https://schoollms.teky.vn/dashboard/courses/38154/curriculum\">Học liệu</a></span></p>",
+      "tags": [
+        {
+          "name": "Microbit HP1",
+          "color": "#7da6d8"
+        }
+      ],
+      "category": {
+        "name": "Teky",
+        "color": "#6d8cff"
+      },
+      "priority": "medium",
+      "createdAt": "2026-10-01T05:20:55.004Z",
+      "updatedAt": "2026-10-01T05:20:55.004Z",
+      "date": "2026-10-10",
+      "time": "10:00",
+      "type": "day",
+      "week": "2026-W41"
+    },
+    {
+      "id": "note_1790832055004_850b54",
+      "title": "Offset Microbit",
+      "description": "Bài 3 học phần 1",
+      "tags": [
+        {
+          "name": "Microbit HP1",
+          "color": "#7da6d8"
+        }
+      ],
+      "category": {
+        "name": "Teky",
+        "color": "#6d8cff"
+      },
+      "priority": "low",
+      "createdAt": "2026-10-01T05:20:55.004Z",
+      "updatedAt": "2026-10-01T05:20:55.004Z",
+      "date": "2026-10-10",
+      "time": "14:00",
+      "type": "day",
+      "week": "2026-W41"
+    },
+    {
+      "id": "note_1790832055004_f24f85",
+      "title": "TA Minstorm",
+      "description": "TA lớp thầy Trung",
+      "tags": [
+        {
+          "name": "TA",
+          "color": "#d96c6c"
+        }
+      ],
+      "category": {
+        "name": "Teky",
+        "color": "#6d8cff"
+      },
+      "priority": "low",
+      "createdAt": "2026-10-01T05:20:55.004Z",
+      "updatedAt": "2026-10-01T05:20:55.004Z",
+      "date": "2026-10-10",
+      "time": "18:00",
+      "type": "day",
+      "week": "2026-W41"
+    },
+    {
+      "id": "note_1790832055004_f3667f",
+      "title": "Microbit HP2",
+      "description": "<span><b>Phát triển ứng dụng với AI học phần 2</b></span><div><p><b>Lớp&nbsp;</b><span>BD-DLBD-C_1011_2024CT-0018</span></p><div><span><b>Bài số</b>&nbsp;<span>Bài 8</span></span></div><div><span><b>Tên bài học</b>&nbsp;<span>HỆ THỐNG TƯỚI CÂY TỰ ĐỘNG</span></span></div></div><div><span><span><a href=\"https://schoollms.teky.vn/dashboard/courses/28594/curriculum\">Học liệu</a></span></span></div>",
+      "tags": [
+        {
+          "name": "Microbit HP2",
+          "color": "#b68af8"
+        }
+      ],
+      "category": {
+        "name": "Teky",
+        "color": "#6d8cff"
+      },
+      "priority": "medium",
+      "createdAt": "2026-10-01T05:20:55.004Z",
+      "updatedAt": "2026-10-01T05:20:55.004Z",
+      "date": "2026-10-11",
+      "time": "08:00",
+      "type": "day",
+      "week": "2026-W41"
+    },
+    {
+      "id": "note_1790832055004_2314ef",
+      "title": "Wedo HP2",
+      "description": "<span><b>KPRB WMAI Level 2</b></span><div><p><b>Lớp&nbsp;</b><span>BD-DLBD-PA_C_KPRB_WMAI-0019</span></p><p><span><b>Bài số</b>&nbsp;</span><span>Bài 4</span></p><div><span><b>Tên bài học</b>&nbsp;<span>ÔN TẬP 1 | KPRB_WMAI-HP02B04</span></span></div></div><div><span><span><a href=\"https://drive.google.com/file/d/1K8qidebpPuyz62QqsqATVOM3zL66LaN2/view?usp=sharing\">Khủng long cổ dài&nbsp;</a></span></span></div>",
+      "tags": [
+        {
+          "name": "Wedo HP2",
+          "color": "#5bb8a0"
+        }
+      ],
+      "category": {
+        "name": "Teky",
+        "color": "#6d8cff"
+      },
+      "priority": "medium",
+      "createdAt": "2026-10-01T05:20:55.004Z",
+      "updatedAt": "2026-10-01T05:20:55.004Z",
+      "date": "2026-10-11",
+      "time": "10:00",
+      "type": "day",
+      "week": "2026-W41"
+    },
+    {
+      "id": "note_1790832055004_b2ea8b",
+      "title": "Roblox HP4",
+      "description": "<span><b>Siêu nhân lập trình học phần 4</b></span><div><p><b>Lớp</b>&nbsp;<span>BD-DLBD-C-PA-1518-SNLT-0008</span></p><div><span><b>Bài số&nbsp;</b><span>Bài 9</span></span></div><div><span><b>Tên bài học</b>&nbsp;<span>BẢNG XẾP HẠNG TỐC ĐỘ</span></span></div></div><div><span><span><a href=\"https://schoollms.teky.vn/dashboard/courses/30085/curriculum\">Học liệu</a></span></span></div>",
+      "tags": [
+        {
+          "name": "Roblox HP4",
+          "color": "#8b8f99"
+        }
+      ],
+      "category": {
+        "name": "Teky",
+        "color": "#6d8cff"
+      },
+      "priority": "high",
+      "createdAt": "2026-10-01T05:20:55.004Z",
+      "updatedAt": "2026-10-01T05:20:55.004Z",
+      "date": "2026-10-11",
+      "time": "14:00",
+      "type": "day",
+      "week": "2026-W41"
+    },
+    {
+      "id": "note_1790832055004_1e5694",
+      "title": "Wedo HP3",
+      "description": "<div><div><div><b><span>KPRB WMAI Level 3</span><span><br></span></b></div></div></div><div><p><b>Lớp</b>&nbsp;<span>BD-DLBD-PA_C_KPRB_WMAI-0016</span></p><div><span><b>Bài số</b>&nbsp;<span>Bài 4</span></span></div><div><span><b>Tên bài học</b>&nbsp;<span>ÔN TẬP 1 | KPRB_WMAI-HP03B04</span></span></div></div><div><div><div><div></div></div></div></div>",
+      "tags": [
+        {
+          "name": "Wedo HP3",
+          "color": "#d96c6c"
+        }
+      ],
+      "category": {
+        "name": "Teky",
+        "color": "#6d8cff"
+      },
+      "priority": "medium",
+      "createdAt": "2026-10-01T05:20:55.004Z",
+      "updatedAt": "2026-10-01T05:20:55.004Z",
+      "date": "2026-10-11",
+      "time": "16:00",
+      "type": "day",
+      "week": "2026-W41"
+    },
+    {
+      "id": "note_1790832266321",
+      "title": "THCS Mỹ Phước",
+      "description": "Bài 1: Giới thiệu<div><a href=\"https://tekyacademy.vn/mod/page/view.php?id=3892\">Học liệu Lớp 7</a></div><div><a href=\"https://tekyacademy.vn/mod/page/view.php?id=3891\">Học liệu lớp 6&nbsp;</a></div><div><table><colgroup><col><col><col></colgroup><tbody><tr><td>13:30</td><td>14:15</td><td>7A7</td></tr><tr><td>14:20</td><td>15:05</td><td>7A5</td></tr><tr><td>15:35</td><td>16:20</td><td>6A4</td></tr></tbody></table><table></table></div>",
+      "tags": [],
+      "category": {
+        "name": "THCS Mỹ Phước",
+        "color": "#5bb8a0"
+      },
+      "priority": "urgent",
+      "createdAt": "2026-10-01T05:24:26.321Z",
+      "updatedAt": "2026-10-01T05:48:48.453Z",
+      "date": "2026-10-06",
+      "time": "13:30",
+      "type": "day",
+      "week": "2026-W41"
+    },
+    {
+      "id": "note_1790832724500_a7c3e3",
+      "title": "Mỹ Thạnh Support",
+      "description": "15:00 - 15:45",
+      "tags": [],
+      "category": {
+        "name": "THCS Mỹ Thạnh",
+        "color": "#f4b04e"
+      },
+      "priority": "low",
+      "createdAt": "2026-10-01T05:32:04.500Z",
+      "updatedAt": "2026-10-01T05:36:41.040Z",
+      "date": "2026-10-09",
+      "time": "15:00",
+      "type": "day",
+      "week": "2026-W41"
+    },
+    {
+      "id": "note_1790833206424_aeee5d",
+      "title": "THCS Mỹ Phước",
+      "description": "Bài 1: Giới thiệu<div><a href=\"https://tekyacademy.vn/mod/page/view.php?id=3892\">Học liệu Lớp 7</a></div><div><a href=\"https://tekyacademy.vn/mod/page/view.php?id=3891\">Học liệu lớp 6&nbsp;</a></div><div><table><colgroup><col><col><col></colgroup><tbody><tr><td>7:00</td><td>7:45</td><td>7A6</td></tr><tr><td>7:50</td><td>8:35</td><td>6A1</td></tr><tr><td>9:05</td><td>9:50</td><td>6A3</td></tr><tr><td>9:55</td><td>10:40</td><td>6A5</td></tr><tr><td>10:45</td><td>11:30</td><td>6A6</td></tr></tbody></table></div><div><table></table></div>",
+      "tags": [],
+      "category": {
+        "name": "THCS Mỹ Phước",
+        "color": "#5bb8a0"
+      },
+      "priority": "urgent",
+      "createdAt": "2026-10-01T05:40:06.424Z",
+      "updatedAt": "2026-10-01T05:48:20.914Z",
+      "date": "2026-10-07",
+      "time": "07:00",
+      "type": "day",
+      "week": "2026-W41"
+    },
+    {
+      "id": "note_1790833436096_a8deb7",
+      "title": "THCS Mỹ Phước",
+      "description": "Bài 1: Giới thiệu<div><a href=\"https://tekyacademy.vn/mod/page/view.php?id=3892\">Học liệu Lớp 7</a></div><div><a href=\"https://tekyacademy.vn/mod/page/view.php?id=3891\">Học liệu lớp 6&nbsp;</a></div><div><table><colgroup><col><col><col></colgroup><tbody><tr><td>07:50</td><td>08:35</td><td>7A3</td></tr><tr><td>09:05</td><td>09:50</td><td>7A4</td></tr><tr><td>09:55</td><td>10:40</td><td>7A1</td></tr><tr><td>10:45</td><td>11:30</td><td>6A8</td></tr><tr><td>13:30</td><td>14:15</td><td>6A7</td></tr><tr><td>14:20</td><td>15:05</td><td>7A2</td></tr><tr><td>15:35</td><td>16:20</td><td>6A2</td></tr></tbody></table></div><div><table></table></div>",
+      "tags": [],
+      "category": {
+        "name": "THCS Mỹ Phước",
+        "color": "#5bb8a0"
+      },
+      "priority": "urgent",
+      "createdAt": "2026-10-01T05:43:56.095Z",
+      "updatedAt": "2026-10-01T05:58:16.684Z",
+      "date": "2026-10-08",
+      "time": "07:50",
+      "type": "day",
+      "week": "2026-W41"
+    },
+    {
+      "id": "note_1790834171279",
+      "title": "Python HP8",
+      "description": "<span><b>Siêu nhân lập trình học phần</b> 8</span><div><p><b>Lớp&nbsp;</b><span>BD-DLBD-C-PA-1518-SNLT-0001</span></p><div><span><b>Bài số</b>&nbsp;<span>Bài 3</span></span></div><div><span><b>Tên bài học</b></span></div></div><div><span><a href=\"https://schoollms.teky.vn/dashboard/courses/30126/curriculum\">Học liệu</a></span></div>",
+      "tags": [
+        {
+          "name": "Python HP8",
+          "color": "#d2cd32"
+        }
+      ],
+      "category": {
+        "name": "Teky",
+        "color": "#6d8cff"
+      },
+      "priority": "medium",
+      "createdAt": "2026-10-01T05:56:11.279Z",
+      "updatedAt": "2026-10-01T05:57:40.612Z",
+      "date": "2026-10-06",
+      "time": "18:00",
+      "type": "day",
+      "week": "2026-W41"
+    },
+    {
+      "id": "note_1790834398656",
+      "title": "BCCK MNCN HP2",
+      "description": "Báo cáo cuối khóa",
+      "tags": [
+        {
+          "name": "MNCN HP2",
+          "color": "#d96c6c"
+        }
+      ],
+      "category": {
+        "name": "Teky",
+        "color": "#6d8cff"
+      },
+      "priority": "urgent",
+      "createdAt": "2026-10-01T05:59:58.656Z",
+      "updatedAt": "2026-10-01T05:59:58.656Z",
+      "date": "2026-10-07",
+      "time": "18:30",
+      "type": "day",
+      "week": "2026-W41"
+    },
+    {
+      "id": "note_1790834511923",
+      "title": "Check T9",
+      "description": "<div><ul><li>2 lớp offset</li><li>2 lớp lỗi checkin</li></ul></div>",
+      "tags": [
+        {
+          "name": "Tháng 9",
+          "color": "#d96c6c"
+        }
+      ],
+      "category": {
+        "name": "Teky",
+        "color": "#6d8cff"
+      },
+      "priority": "urgent",
+      "createdAt": "2026-10-01T06:01:51.923Z",
+      "updatedAt": "2026-10-01T06:01:51.923Z",
+      "date": "2026-10-01",
+      "time": "",
+      "type": "weekly",
+      "week": "2026-W40"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Teky",
+      "color": "#6d8cff"
+    },
+    {
+      "name": "THCS Mỹ Phước",
+      "color": "#5bb8a0"
+    },
+    {
+      "name": "THCS Mỹ Thạnh",
+      "color": "#f4b04e"
+    },
+    {
+      "name": "All",
+      "color": "#ff8a6b"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Microbit HP1",
+      "color": "#7da6d8"
+    },
+    {
+      "name": "TA",
+      "color": "#d96c6c"
+    },
+    {
+      "name": "Microbit HP2",
+      "color": "#b68af8"
+    },
+    {
+      "name": "Wedo HP2",
+      "color": "#5bb8a0"
+    },
+    {
+      "name": "Roblox HP4",
+      "color": "#8b8f99"
+    },
+    {
+      "name": "Wedo HP3",
+      "color": "#d96c6c"
+    },
+    {
+      "name": "Python HP8",
+      "color": "#d2cd32"
+    },
+    {
+      "name": "MNCN HP2",
+      "color": "#d96c6c"
+    },
+    {
+      "name": "Tháng 9",
+      "color": "#d96c6c"
+    }
+  ]
+}

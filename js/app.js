@@ -94,8 +94,36 @@ const PlannerApp = (() => {
     }
   }
 
+  async function refreshFromBundledData() {
+    const confirmed = window.confirm(
+      'Replace your current notes, categories, and saved tags with the data in data.json?'
+    );
+    if (!confirmed) return;
+
+    try {
+      const response = await fetch('./data.json', { cache: 'no-store' });
+      if (!response.ok) throw new Error('Could not load data.json.');
+
+      const data = await response.json();
+      if (!data || data.schemaVersion !== 1 || !Array.isArray(data.notes) ||
+          !Array.isArray(data.categories) || !Array.isArray(data.tags)) {
+        throw new Error('data.json is not a supported Weekly Planner backup.');
+      }
+
+      PlannerStorage.importData(data);
+      state.composer = null;
+      state.pendingDeleteId = null;
+      state.categoryFilter = '__all_categories__';
+      render();
+      window.alert('Planner data refreshed successfully.');
+    } catch (error) {
+      window.alert(error.message || 'Could not load data.json.');
+    }
+  }
+
   function bindEvents() {
     $(document).on('click', '[data-action="export-json"]', exportJsonData);
+    $(document).on('click', '[data-action="refresh-data"]', refreshFromBundledData);
     $(document).on('click', '[data-action="import-json"]', function () {
       $(this).siblings('[data-role="import-json-file"]').trigger('click');
     });

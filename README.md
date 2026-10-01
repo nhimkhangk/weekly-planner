@@ -36,7 +36,7 @@ Each note contains:
 
 Notes are stored under the `weeklyPlannerNotes` key in localStorage. Categories are stored under `weeklyPlannerCategories`, and reusable tag names/colors under `weeklyPlannerTags`.
 
-Use **Export JSON** in the header to download a backup containing notes, categories, saved tags, the schema version, and export timestamp. Use **Import JSON** to restore a backup created by the planner; importing replaces the current notes, categories, and saved tags after confirmation. Daily changes continue to save to localStorage.
+Use **Export JSON** in the header to download a backup containing notes, categories, saved tags, the schema version, and export timestamp. Use **Import JSON** to restore a backup created by the planner; importing replaces the current notes, categories, and saved tags after confirmation. **Refresh** replaces them with `data.json` after confirmation. Refresh requires the app to be served over HTTP, since browsers block loading local files from pages opened with `file://`. Daily changes continue to save to localStorage.
 
 ## How localStorage works
 

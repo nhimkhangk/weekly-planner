@@ -8,6 +8,13 @@ const PlannerApp = (() => {
   };
   let savedEditorRange = null;
 
+  function isMobileDevice() {
+    const userAgent = navigator.userAgent || '';
+    return Boolean(navigator.userAgentData && navigator.userAgentData.mobile) ||
+      /Android|iPhone|iPad|iPod|Mobile|Windows Phone|IEMobile|Opera Mini/i.test(userAgent) ||
+      (/Macintosh/i.test(userAgent) && navigator.maxTouchPoints > 1);
+  }
+
   function seedDataIfNeeded() {
     if (localStorage.getItem('weeklyPlannerNotes') === null) {
       PlannerStorage.saveNotes(PlannerNotes.getSampleNotes());
@@ -16,6 +23,7 @@ const PlannerApp = (() => {
   }
 
   function init() {
+    if (isMobileDevice()) state.viewMode = 'today';
     const savedTheme = localStorage.getItem('weeklyPlannerTheme');
     document.documentElement.dataset.theme = savedTheme === 'dark' ? 'dark' : 'light';
     seedDataIfNeeded();

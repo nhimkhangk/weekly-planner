@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-10-01T13:34:12.517Z",
+  "exportedAt": "2026-10-05T04:13:12.661Z",
   "notes": [
     {
       "id": "note_1790826220527_6a4fc6",
@@ -27,7 +27,7 @@
     {
       "id": "note_1790826890246",
       "title": "Wedo",
-      "description": "<div><span><p><b>Lớp</b>&nbsp;<span>BD-DLBD-C-RB-711-2025KPRB-0003</span></p></span><span><b>Bài số</b>&nbsp;<span>Bài 2</span></span></div><div><span><b>Tên bài học</b>&nbsp;<span>NGÔN NGỮ ĐỘNG VẬT</span></span></div><div><span><span><a href=\"https://schoollms.teky.vn/dashboard/courses/36191/curriculum\">Học liệu</a></span></span></div>",
+      "description": "<div><span><p><b>Lớp</b>&nbsp;<span>BD-DLBD-C-RB-711-2025KPRB-0003</span></p></span><span><b>Bài số</b>&nbsp;<span>Bài 2</span></span></div><div><span><b>Tên bài học</b>&nbsp;<span>NGÔN NGỮ ĐỘNG VẬT</span></span></div><div><span><span><a href=\"https://schoollms.teky.vn/dashboard/courses/36191/curriculum\">Học liệu</a></span></span></div><div><span><br></span></div><div><b>--------Log------</b></div><div><b>Lớp bị cancel</b></div>",
       "tags": [
         {
           "name": "Wedo HP2",
@@ -40,7 +40,7 @@
       },
       "priority": "low",
       "createdAt": "2026-10-01T03:54:50.246Z",
-      "updatedAt": "2026-10-01T13:23:57.502Z",
+      "updatedAt": "2026-10-03T01:08:07.509Z",
       "date": "2026-10-03",
       "time": "08:00",
       "type": "day",
@@ -115,7 +115,7 @@
     {
       "id": "note_1790828179864",
       "title": "Microbit HP2",
-      "description": "<span><b>Phát triển ứng dụng với AI học phần 2</b></span><div><p><b>Lớp&nbsp;</b><span>BD-DLBD-C_1011_2024CT-0018</span></p><div><span><b>Bài số</b>&nbsp;<span>Bài 8</span></span></div><div><span><b>Tên bài học</b>&nbsp;<span>HỆ THỐNG TƯỚI CÂY TỰ ĐỘNG</span></span></div></div><div><span><span><a href=\"https://schoollms.teky.vn/dashboard/courses/28594/curriculum\">Học liệu</a></span></span></div>",
+      "description": "<span><b>Phát triển ứng dụng với AI học phần 2</b></span><div><p><b>Lớp&nbsp;</b><span>BD-DLBD-C_1011_2024CT-0018</span></p><div><span><b>Bài số</b>&nbsp;<span>Bài 8</span></span></div><div><span><b>Tên bài học</b>&nbsp;<span>HỆ THỐNG TƯỚI CÂY TỰ ĐỘNG</span></span></div></div><div><span><span><a href=\"https://schoollms.teky.vn/dashboard/courses/28594/curriculum\">Học liệu</a></span></span></div><div><span><br></span></div><div><span>----Log----</span></div><div>Các bạn học tốt</div>",
       "tags": [
         {
           "name": "Microbit HP2",
@@ -128,7 +128,7 @@
       },
       "priority": "medium",
       "createdAt": "2026-10-01T04:16:19.864Z",
-      "updatedAt": "2026-10-01T04:18:43.792Z",
+      "updatedAt": "2026-10-04T06:35:43.985Z",
       "date": "2026-10-04",
       "time": "08:00",
       "type": "day",
@@ -137,7 +137,7 @@
     {
       "id": "note_1790828478295",
       "title": "Wedo HP2",
-      "description": "<span><b>KPRB WMAI Level 2</b></span><div><p><b>Lớp&nbsp;</b><span>BD-DLBD-PA_C_KPRB_WMAI-0019</span></p><p><span><b>Bài số</b>&nbsp;</span><span>Bài 4</span></p><div><span><b>Tên bài học</b>&nbsp;<span>ÔN TẬP 1 | KPRB_WMAI-HP02B04</span></span></div></div><div><span><span><a href=\"https://drive.google.com/file/d/1K8qidebpPuyz62QqsqATVOM3zL66LaN2/view?usp=sharing\">Khủng long cổ dài&nbsp;</a></span></span></div>",
+      "description": "<span><b>KPRB WMAI Level 2</b></span><div><p><b>Lớp&nbsp;</b><span>BD-DLBD-PA_C_KPRB_WMAI-0019</span></p><p><span><b>Bài số</b>&nbsp;</span><span>Bài 4</span></p><div><span><b>Tên bài học</b>&nbsp;<span>ÔN TẬP 1 | KPRB_WMAI-HP02B04</span></span></div></div><div><span><span><a href=\"https://drive.google.com/file/d/1K8qidebpPuyz62QqsqATVOM3zL66LaN2/view?usp=sharing\">Khủng long cổ dài&nbsp;</a></span></span></div><div><span><br></span></div><div><span>----Log----</span></div><div>Nhóm Thiên và Phúc: Hoàn thành và có thuyết trình</div><div>Nhóm Tâm và Huy: Chưa hoàn thành</div><div>Nhóm Tuấn và Khoa: Chưa hoàn thành</div>",
       "tags": [
         {
           "name": "Wedo HP2",
@@ -150,7 +150,7 @@
       },
       "priority": "low",
       "createdAt": "2026-10-01T04:21:18.295Z",
-      "updatedAt": "2026-10-01T13:24:52.930Z",
+      "updatedAt": "2026-10-04T06:36:52.705Z",
       "date": "2026-10-04",
       "time": "10:00",
       "type": "day",
@@ -203,7 +203,7 @@
     {
       "id": "note_1790829162159",
       "title": "THCS Mỹ Phước",
-      "description": "Đem đồ lên trường, khảo sát",
+      "description": "Đem đồ lên trường, khảo sát<div><br></div><div><div>-----Log-----</div><div>Chưa có checkin, nhớ nói LA tạo ca ngày khác để checkin</div></div>",
       "tags": [],
       "category": {
         "name": "THCS Mỹ Phước",
@@ -211,7 +211,7 @@
       },
       "priority": "urgent",
       "createdAt": "2026-10-01T04:32:42.159Z",
-      "updatedAt": "2026-10-01T04:32:42.159Z",
+      "updatedAt": "2026-10-02T10:02:27.744Z",
       "date": "2026-10-02",
       "time": "09:00",
       "type": "day",
@@ -564,7 +564,7 @@
     {
       "id": "note_1790834511923",
       "title": "Check T9",
-      "description": "<div><ul><li>2 lớp offset</li><li>2 lớp lỗi checkin</li></ul></div>",
+      "description": "<ul><li>2 lớp offset</li><li>2 lớp lỗi checkin</li></ul><div>-----Log-----</div><div>Chưa có checkin, nhớ nói LA tạo ca ngày khác để checkin</div>",
       "tags": [
         {
           "name": "Tháng 9",
@@ -577,7 +577,7 @@
       },
       "priority": "urgent",
       "createdAt": "2026-10-01T06:01:51.923Z",
-      "updatedAt": "2026-10-01T06:01:51.923Z",
+      "updatedAt": "2026-10-02T10:01:58.543Z",
       "date": "2026-10-01",
       "time": "",
       "type": "weekly",
@@ -638,6 +638,10 @@
     {
       "name": "Tháng 9",
       "color": "#d96c6c"
+    },
+    {
+      "name": "tag",
+      "color": "#f4b04e"
     }
   ]
 }
